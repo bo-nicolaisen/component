@@ -8,6 +8,7 @@ let myDropDown = document.getElementById('dropdownContent')
 
 myIcon.addEventListener('click', (event) => {
 
+
     myDropDown.classList.toggle('hidden')
 
 })
