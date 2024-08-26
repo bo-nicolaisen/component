@@ -18,20 +18,23 @@
 
 <body>
 
+    <!-- statics -->
     <header>
-        <h2 id="icon">
-            M
-        </h2>
-        <h2>dropdown</h2>
+        <h2 id="icon">M</h2>
+        <h2 id="listTitle">dropdown</h2>
     </header>
-    <section id="dropdownContent">
+
+    <!-- dynamic element -->
+    <section id="dropdownContent" class="hidden">
         <ul>
             <li onclick="callback('1')">option 1</li>
-            <li onclick="callback('1')">option 2</li>
-            <li onclick="callback('1')">option 3</li>
-            <li onclick="callback('1')">option 4</li>
+            <li onclick="callback('2')">option 2</li>
+            <li onclick="callback('3')">option 3</li>
+            <li onclick="callback('4')">option 4</li>
         </ul>
     </section>
+
+
 
 
 
